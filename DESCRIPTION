@@ -1,0 +1,28 @@
+Package: RASminer
+Title: Data mining HEC-RAS outputs with R.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Michael",
+           family = "Koohafkan",
+           role = c("aut", "cre"),
+           email = "michael.koohafkan@gmail.com")
+Description: Extract data from HEC-RAS HDF files using R.
+License: GPL (>= 3)
+Depends:
+    R (>= 3.6)
+Imports:
+    hdfqlr (>= 0.5),
+    readr (>= 1.0),
+    dplyr (>= 0.5),
+    stringr (>= 1.1),
+    tidyr (>= 0.6),
+    tibble (>= 1.4),
+    utils,
+    stats
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat (>= 2.1.0)
